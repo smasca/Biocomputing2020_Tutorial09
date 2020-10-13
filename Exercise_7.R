@@ -1,17 +1,22 @@
+# Samantha Masca
+# BIOS 30318
+# Exercise 7
+# TA: Elizabeth Brooks        
+
 #Task 1: replicating the functionality of the head function in Linux to output the top n lines
 
-setwd ("/Users/samanthamasca/Desktop/Biocomputing")
+setwd ("/Users/samanthamasca/Biocomputing2020_Tutorial09/")
 #variable name of the file
 data <- read.table(file='wages.csv',sep=',',header=TRUE,stringsAsFactors = FALSE)
 #variable integer for number of lines
 n <- 9
-#replicated head function via indexing
+#output
 data[1:n,]
 
 # Task 2: load iris.csv and do the following things
 
 # load iris.csv file
-setwd ("/Users/samanthamasca/Desktop/Biocomputing")
+setwd ("/Users/samanthamasca/Biocomputing2020_Tutorial09/")
 iris <- read.table(file='iris.csv',sep=',',header=TRUE,stringsAsFactors = FALSE)
 
 # print the last 2 rows in the last 2 columns to the R terminal
